@@ -29,37 +29,7 @@
 if (SVG.supported) {
 	//variables needed for disambiguation
 	var puzzleIsSolved = false;
-  	var pzlDimensionsX = 800;
-	var pzlDimensionsY = 800;
-	var numberRectX = 4;
-	var numberRectY = 4;	
-	var totalBoxes = numberRectX*numberRectY;
-	var borderWidth = 5;
-	var btnSize = 30;
-	var boxSize = 75;
-	var puzzleColor1 = "#a00000";
-	var puzzleColor2 = "#468499";
-	var currentColor = "#ffffff"; //init to NULL (white) color
 
-	//puzzle answer
-	var answer = [
-		{state:1},
-		{state:1},
-		{state:2},
-		{state:2},
-		{state:1},
-		{state:1},
-		{state:2},
-		{state:2},
-		{state:1},
-		{state:1},
-		{state:2},
-		{state:2},
-		{state:1},
-		{state:1},
-		{state:2},
-		{state:2} //16-->answer[15]
-	];
 	//user puzzle state-->init: NULL
 	var userState = [];
 	//for each box in grid, add state object.
